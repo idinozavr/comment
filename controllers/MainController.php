@@ -1,6 +1,6 @@
 <?php
 
-require_once ROOT."\\models\\Comment.php";
+require_once ROOT."/models/Comment.php";
 
 class MainController
 {
@@ -21,7 +21,7 @@ class MainController
         $resultArr = $comment->transform($content);
 
         # Подключаем главный шаблон
-        require_once ROOT."\\views\\main.php";
+        require_once ROOT."/views/main.php";
     }
 
     /**
