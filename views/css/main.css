@@ -1,0 +1,76 @@
+body{
+    background: #f4f4f4;
+    font-family: 'Roboto', sans-serif;
+}
+
+#add-comments .add-comments, #comments .comments{
+    background: #f9f9f9;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+
+#add-comments .add-comments .title, #comments .comments .title{
+    font-size: 22px;
+    margin: 20px 0;
+}
+#comments .comments .title{
+    text-align: center;
+}
+.comment-item{
+    margin-bottom: 10px;
+}
+.top-line .name{
+    display: inline-block;
+    font-size: 16px;
+    color: #2e6da4;
+}
+.top-line .date{
+    display: inline-block;
+    float: right;
+    color: #adadad;
+    font-size: 12px;
+}
+.under-line{
+    margin-top: 5px;
+}
+.reply, .delete{
+    display: inline-block;
+}
+a.add-reply{
+    color: #adadad;
+    text-decoration: none;
+    margin-right: 10px;
+}
+a.add-reply:hover{
+    color: #555555;
+}
+a.delete-reply{
+    color: #ac2925;
+    text-decoration: none;
+    opacity: .6;
+}
+a.delete-reply:hover{
+    opacity: 1;
+}
+a.cancel{
+    margin-left: 15px;
+}
+.answer-error{
+    color: #ac2925;
+    font-size: 12px;
+}
+.encloshure-1{
+    margin-left: 30px;
+}
+.encloshure-2{
+    margin-left: 60px;
+}
+.encloshure-3{
+    margin-left: 90px;
+}
+.encloshure-4{
+    margin-left: 120px;
+}
+.encloshure-5{
+    margin-left: 150px;
+}
